@@ -21,6 +21,7 @@
 		F105127C19B86FEC00B1191B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F105125E19B86FEC00B1191B /* UIKit.framework */; };
 		F105128419B86FEC00B1191B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F105128219B86FEC00B1191B /* InfoPlist.strings */; };
 		F105128619B86FEC00B1191B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F105128519B86FEC00B1191B /* Git_TestTests.m */; };
+		F105129119B874A500B1191B /* CPNTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F105129019B874A500B1191B /* CPNTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F105128119B86FEC00B1191B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		F105128319B86FEC00B1191B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F105128519B86FEC00B1191B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		F105128F19B874A500B1191B /* CPNTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPNTest.h; path = ../CPNTest.h; sourceTree = "<group>"; };
+		F105129019B874A500B1191B /* CPNTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPNTest.m; path = ../CPNTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				F105126C19B86FEC00B1191B /* Main.storyboard */,
 				F105126F19B86FEC00B1191B /* CPNViewController.h */,
 				F105127019B86FEC00B1191B /* CPNViewController.m */,
+				F105128F19B874A500B1191B /* CPNTest.h */,
+				F105129019B874A500B1191B /* CPNTest.m */,
 				F105127219B86FEC00B1191B /* Images.xcassets */,
 				F105126119B86FEC00B1191B /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F105126B19B86FEC00B1191B /* CPNAppDelegate.m in Sources */,
+				F105129119B874A500B1191B /* CPNTest.m in Sources */,
 				F105127119B86FEC00B1191B /* CPNViewController.m in Sources */,
 				F105126719B86FEC00B1191B /* main.m in Sources */,
 			);
